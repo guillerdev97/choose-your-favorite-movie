@@ -13,16 +13,17 @@ fetchMoviesJson().then(data => {
     for (let index = 0; index < movies.length; index++) {
         const moviesSection = document.getElementById("moviesSection");
         /* let id = movies[index].id; */
+        let image = movies[index].img;
         let title = movies[index].nombre;
-        let director = movies[index].director;
-        let gender = movies[index].clasificacion;
+        let description = movies[index].descripción;
         moviesSection.innerHTML += `
         <div class="col">
-            <div class="card h-100">
+            <div class="card text-bg-dark h-100">
                 <img src="../img/camera.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
+                    <img src="${image}" class="card-img-top">
                     <h5 class="card-title">${title}</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text">${description}</p>
             </div>
         </div>
         `;
