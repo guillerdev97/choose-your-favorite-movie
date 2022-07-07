@@ -1,22 +1,91 @@
 {
-  "peliculas": [
+  "movies": [
     {
       "id": 1,
-      "img": "./img/characters/albus.png",
-      "nombre": "Harry Potter",
-      "descripción": "Es la única persona conocida que ha sobrevivido a la maldición de Avada Kedavra, haciéndolo en dos ocasiones. Ambas veces la maldición fue conjurada por Lord Voldemort."
+      "img": "./img/films/filosofal.png",
+      "nombre": "Harry Potter and the Philosopher's Stone",
+      "director": "Chris Columbus",
+      "gender": "Fantasy Film" 
     },
     {
       "id": 2,
-      "img": "./img/characters/lord.png",
-      "nombre": "Lord Voldemort",
-      "descripción": "Fue el mago más tenebroso de todos los tiempos."
+      "img": "./img/films/secret.png",
+      "nombre": "Harry Potter and the Chamber of Secrets ",
+      "director": "Chris Columbus",
+      "gender": "Fantasy Film" 
     },
     {
       "id": 3,
+      "img": "./img/films/azkaban.png",
+      "nombre": "Harry Potter and the Prisoner of Azkaban",
+      "director": "Chris Columbus",
+      "gender": "Fantasy Film" 
+    },
+    {
+      "id": 4,
+      "img": "./img/films/caliz.png",
+      "nombre": "Harry Potter and the Goblet of Fire",
+      "director": "Chris Columbus",
+      "gender": "Fantasy Film" 
+    },
+    {
+      "id": 5,
+      "img": "./img/films/orden.png",
+      "nombre": "Harry Potter and the Order of the Phoenix",
+      "director": "Chris Columbus",
+      "gender": "Fantasy Film" 
+    },
+    {
+      "id": 6,
+      "img": "./img/films/misterio.png",
+      "nombre": "Harry Potter and the Half-Blood Prince",
+      "director": "Chris Columbus",
+      "gender": "Fantasy Film"
+    },
+    {
+      "id": 7,
+      "img": "./img/films/reliquias.png",
+      "nombre": "Harry Potter and the Deathly Hallows",
+      "director": "Chris Columbus",
+      "gender": "Fantasy Film"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "img": "./img/characters/harry.png",
+      "nombre": "Harry Potter",
+      "descripción": "He has survived the curse of Avada Kedavra."
+    },
+    {
+      "id": 2,
+      "img": "./img/characters/hermione.png",
+      "nombre": "Hermione Granger",
+      "descripción": "She is the best friend of the protagonist."
+    },
+    {
+      "id": 3,
+      "img": "./img/characters/ron.png",
+      "nombre": "Ronald Weasley",
+      "descripción": "He is the best friend of the protagonist."
+    },
+    {
+      "id": 4,
+      "img": "./img/characters/lord.png",
+      "nombre": "Lord Voldemort",
+      "descripción": "He was the darkest wizard of all time."
+    },
+    {
+      "id": 5,
+      "img": "./img/characters/albus.png",
+      "nombre": "Albus Dumbledore",
+      "descripción": "Headmaster of Hogwarts Witchcraft and Wizardry."
+    },
+    {
+      "id": 6,
       "img": "./img/characters/malfoy.png",
-      "nombre": "Pulp Fiction",
-      "descripción": "Fue el mago más tenebroso de todos los tiempos."
+      "nombre": "Draco Malfoy",
+      "descripción": "He is an enemy of Harry Potter."
     }
   ]
 }
