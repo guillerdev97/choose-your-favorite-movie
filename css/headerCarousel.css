@@ -1,13 +1,40 @@
-#harryPotterCarousel {
-    border: 5px solid black;
+header > nav {
+    height: 70px;
 }
-
-
-
-
+.navbar-brand {
+    margin-left: 15px;
+}
+#harryPotterCarousel {
+    border: 10px solid #212529;
+}
+.titles {
+    margin-top: 10px;
+}
 .card-header {
     background-color: #202124;
 }
 .card-header > h4 {
     color: white;
 }
+.card-title {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.card-text {
+    text-align: center;
+}
+.btnHover {
+    border: 1px solid white;
+}
+.btnHover:hover {
+    border: 1px solid white;
+    background-color: #0f1010;
+}
+
+
+.footerText {
+    color: white;
+}
+

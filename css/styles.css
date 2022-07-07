@@ -2,14 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Rubik&display=swap');
 
 body {
+    margin: 0px;
+    padding: 0px;
     background-color: #0f1010;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
     font-family: 'Rubik', sans-serif;
 }
+
