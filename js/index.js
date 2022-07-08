@@ -18,6 +18,7 @@ fetchMoviesJson().then(data => {
         let title = movies[index].nombre;
         let director = movies[index].director;
         let gender = movies[index].gender;
+        let link = movies[index].link;
         moviesSection.innerHTML += `
         <div class="col">
             <div class="card text-bg-dark" style="height: 385px;">
@@ -25,7 +26,7 @@ fetchMoviesJson().then(data => {
                     <img src="${image}" class="card-img-top" style="height: 210px;">
                     <h5 class="card-title fw-bold">${title}</h5>
                     <p class="card-text">${director}<br>${gender}</p>
-                    <a href="#" class="btn btn-dark btnHover">Watch Detail</a>
+                    <a href="${link}" target="_blank" class="btn btn-dark btnHover">Watch Detail</a>
             </div>
         </div>
         `;
@@ -36,6 +37,7 @@ fetchMoviesJson().then(data => {
         let image = characters[index].img;
         let title = characters[index].nombre;
         let description = characters[index].descripción;
+        let link = characters[index].link;
         charactersSection.innerHTML += `
         <div class="col">
             <div class="card text-bg-dark" style="height: 385px;">
@@ -43,7 +45,7 @@ fetchMoviesJson().then(data => {
                     <img src="${image}" class="card-img-top" style="height: 210px;">
                     <h5 class="card-title fw-bold">${title}</h5>
                     <p class="card-text">${description}</p>
-                    <a href="#" class="btn btn-dark btnHover">Watch Detail</a>
+                    <a href="${link}" target="_blank" class="btn btn-dark btnHover">Watch Detail</a>
             </div>
         </div>
         `;
