@@ -5,49 +5,56 @@
       "img": "./img/films/filosofal.png",
       "nombre": "Harry Potter and the Philosopher's Stone",
       "director": "Chris Columbus",
-      "gender": "Fantasy Film" 
+      "gender": "Fantasy Film",
+      "link": "https://harrypotter.fandom.com/es/wiki/Harry_Potter_y_la_piedra_filosofal_(pel%C3%ADcula)"
     },
     {
       "id": 2,
       "img": "./img/films/secret.png",
       "nombre": "Harry Potter and the Chamber of Secrets ",
       "director": "Chris Columbus",
-      "gender": "Fantasy Film" 
+      "gender": "Fantasy Film",
+      "link": "https://harrypotter.fandom.com/es/wiki/Harry_Potter_y_la_c%C3%A1mara_secreta_(pel%C3%ADcula)"
     },
     {
       "id": 3,
       "img": "./img/films/azkaban.png",
       "nombre": "Harry Potter and the Prisoner of Azkaban",
-      "director": "Chris Columbus",
-      "gender": "Fantasy Film" 
+      "director": "Alfonso Cuarón",
+      "gender": "Fantasy Film",
+      "link": "https://harrypotter.fandom.com/es/wiki/Harry_Potter_y_el_prisionero_de_Azkaban_(pel%C3%ADcula)"
     },
     {
       "id": 4,
       "img": "./img/films/caliz.png",
       "nombre": "Harry Potter and the Goblet of Fire",
-      "director": "Chris Columbus",
-      "gender": "Fantasy Film" 
+      "director": "Mike Newell",
+      "gender": "Fantasy Film",
+      "link": "https://harrypotter.fandom.com/es/wiki/Harry_Potter_y_el_c%C3%A1liz_de_fuego_(pel%C3%ADcula)"
     },
     {
       "id": 5,
       "img": "./img/films/orden.png",
       "nombre": "Harry Potter and the Order of the Phoenix",
-      "director": "Chris Columbus",
-      "gender": "Fantasy Film" 
+      "director": "David Yates",
+      "gender": "Fantasy Film",
+      "link": "hthttps://harrypotter.fandom.com/es/wiki/Harry_Potter_y_la_Orden_del_F%C3%A9nix_(pel%C3%ADcula)"
     },
     {
       "id": 6,
       "img": "./img/films/misterio.png",
       "nombre": "Harry Potter and the Half-Blood Prince",
-      "director": "Chris Columbus",
-      "gender": "Fantasy Film"
+      "director": "David Yates",
+      "gender": "Fantasy Film",
+      "link": "https://harrypotter.fandom.com/es/wiki/Harry_Potter_y_el_misterio_del_pr%C3%ADncipe_(pel%C3%ADcula)"
     },
     {
       "id": 7,
       "img": "./img/films/reliquias.png",
       "nombre": "Harry Potter and the Deathly Hallows",
-      "director": "Chris Columbus",
-      "gender": "Fantasy Film"
+      "director": "David Yates",
+      "gender": "Fantasy Film",
+      "link": "https://harrypotter.fandom.com/es/wiki/Harry_Potter_y_las_Reliquias_de_la_Muerte:_Parte_1"
     }
   ],
   "characters": [
@@ -55,37 +62,43 @@
       "id": 1,
       "img": "./img/characters/harry.png",
       "nombre": "Harry Potter",
-      "descripción": "He has survived the curse of Avada Kedavra."
+      "descripción": "He has survived the curse of Avada Kedavra.",
+      "link": "https://harrypotter.fandom.com/es/wiki/Harry_Potter?so=search"
     },
     {
       "id": 2,
       "img": "./img/characters/hermione.png",
       "nombre": "Hermione Granger",
-      "descripción": "She is the best friend of the protagonist."
+      "descripción": "She is the best friend of the protagonist.",
+      "link": "https://harrypotter.fandom.com/es/wiki/Hermione_Granger?so=search"
     },
     {
       "id": 3,
       "img": "./img/characters/ron.png",
       "nombre": "Ronald Weasley",
-      "descripción": "He is the best friend of the protagonist."
+      "descripción": "He is the best friend of the protagonist.",
+      "link": "https://harrypotter.fandom.com/es/wiki/Ronald_Weasley?so=search"
     },
     {
       "id": 4,
       "img": "./img/characters/lord.png",
       "nombre": "Lord Voldemort",
-      "descripción": "He was the darkest wizard of all time."
+      "descripción": "He was the darkest wizard of all time.",
+      "link": "https://harrypotter.fandomhttps://harrypotter.fandom.com/es/wiki/Tom_Ryddle?so=search"
     },
     {
       "id": 5,
       "img": "./img/characters/albus.png",
       "nombre": "Albus Dumbledore",
-      "descripción": "Headmaster of Hogwarts Witchcraft and Wizardry."
+      "descripción": "Headmaster of Hogwarts Witchcraft and Wizardry.",
+      "link": "https://harrypotter.fandom.com/es/wiki/Albus_Dumbledore?so=search"
     },
     {
       "id": 6,
       "img": "./img/characters/malfoy.png",
       "nombre": "Draco Malfoy",
-      "descripción": "He is an enemy of Harry Potter."
+      "descripción": "He is an enemy of Harry Potter.",
+      "link": "https://harrypotter.fandom.com/es/wiki/Draco_Malfoy?so=search"
     }
   ]
 }
