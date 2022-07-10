@@ -33,8 +33,22 @@ header > nav {
     background-color: #0f1010;
 }
 
-
+.icons {
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
 .footerText {
     color: white;
 }
+.icons > a {
+    color: white;
+}
+.icons > a > i {
+    font-size: 24px;
+    transition: all .3s ease;
+}
+.icons > a > i:hover {
+    font-size: 28px;
+}
+
 
